@@ -1,0 +1,96 @@
+.footer-container {
+  background-color: #233c7b;
+  margin-top: 45px;
+
+  .footer-box {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .footer-info-container {
+      padding-bottom: 25px;
+      display: flex;
+      width: 970px;
+      justify-content: space-between;
+
+      .footer-info-box {
+        .footer-socialLink-box {
+          padding-top: 10px;
+          align-items: center;
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 1px solid whitesmoke;
+
+          .footerLogo img {
+            height: 40px;
+          }
+          .footer-socialLink-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            color: aliceblue;
+          }
+        }
+
+        .footer-address-box {
+          text-align: left;
+          color: rgb(212, 209, 209);
+          padding: 4px 0;
+          p {
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-aboutUs-conatiner {
+    color: rgb(212, 209, 209);
+    display: flex;
+    gap: 100px;
+    .footerBoxes {
+      .sameClass {
+        font-weight: bold;
+        border-bottom: 1px solid white;
+        padding: 11px 0px;
+        text-align: left;
+      }
+      .sameClass2 {
+        display: flex;
+        text-align: center;
+        padding: 10px 0px;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: flex-start;
+      }
+    }
+  }
+
+  .footer-iso-container {
+    display: flex;
+    flex-direction: column;
+
+    .ISO-Logo-box {
+      display: flex;
+      color: rgb(212, 209, 209);
+      padding-bottom: 7px;
+      justify-content: flex-start;
+      .iso-logo {
+        img {
+          height: 75px;
+        }
+      }
+    }
+
+    .terms-condition-container {
+      display: flex;
+      color: rgb(212, 209, 209);
+      border-top: 1px solid whitesmoke;
+      justify-content: space-between;
+    }
+  }
+}

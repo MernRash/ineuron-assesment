@@ -1,0 +1,81 @@
+.explore-section {
+    max-width: 1100px;
+    margin: auto;
+    .explore-title {
+        color: royalblue;
+    }
+
+    h3 {
+        color: #f58a20;
+        margin-bottom: 0;
+    }
+
+    h5 {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .job-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        padding: 20px;
+        gap: 80px;
+        background: rgba(231, 228, 228, 0.308);
+        border-radius: 15px;
+
+        .job-card-box {
+            flex-direction: column;
+            display: flex;
+            background: white;
+            border-radius: 10px;
+            align-items: baseline;
+
+            .job-title-box {
+                padding-left: 10px;
+            }
+
+            .job-information-container {
+                display: flex;
+                justify-content: space-between;
+                width: 450px;
+
+                .location-experience-box {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    padding: 10px;
+                }
+
+                .employment-info-box {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: right;
+                    padding: 10px;
+
+                    .employment-container {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .view-more-box {
+                        color: #f58a20;
+                    }
+                }
+            }
+        }
+    }
+
+    .view-more-button {
+        button {
+            background-color: #f58a20;
+            width: 400px;
+            border-radius: 32px;
+            border: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px;
+        }
+    }
+}
